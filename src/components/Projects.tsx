@@ -7,7 +7,7 @@ import { Card, CardContent } from "@/components/ui/card";
 
 export const projects = [
     {
-        title: "VFS - Virtual File System in C++",
+        title: "VFS - Virtual File System",
         description: "A file system virtualization, simulating how the filesystem of Fat32 works.",
         tech: "C++",
         link: "https://github.com/yakov103/Ex7-os",
@@ -18,15 +18,28 @@ export const projects = [
         tech: "Kotlin",
         link: "https://github.com/dolev146/Politi-Cal",
     },
+    {
+        title: "Travel Salesman Person - TSP Algorithm",
+        description: "A group project with 4 team members, including algorithm tsp and ui with python, managing algorithm and data flows.",
+        tech: "Python",
+        link: "https://github.com/dolev146/Ex4_OOP",
+    },
+    {
+        title: "Microservices Cloud Computing",
+        description: "A group project with 3 team members, including services for web-scraping, Redis cache, Kafka on Docker.",
+        tech: "Docker",
+        link: "https://github.com/dolev146/BigData-Cloud-Computing-project",
+    },
 ]
 
 const techColors = {
     "React": "bg-blue-500",
     "React Native": "bg-green-500",
     "Vue.js": "bg-purple-500",
-    "Python": "bg-yellow-500",
     "C++" : "bg-pink-500",
     "Kotlin": "bg-purple-500",
+    "Python": "bg-blue-500",
+    "Docker": "bg-gray-500",
 }
 
 export const Projects = () => {

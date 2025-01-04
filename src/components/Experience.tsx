@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import { CalendarDays } from "lucide-react";
 
-import { Card, CardContent } from "@/components/ui/card";
+import { Card, CardContent, CardTitle } from "@/components/ui/card";
 
 import { JobImages } from "@/components/JobImages";
 
@@ -10,7 +10,7 @@ const jobs = [
     {
         role: "Full-Stack Developer , React TypeScript .NetCore", // TODO: Replace with actual role
         company: "Alpha Omega Engineering Inc.", // TODO: Replace with actual company name
-        logo: "/ao.svg", // TODO: Replace with actual logo
+        logo: "/ao.png", // TODO: Replace with actual logo
         duration: "2023 - Present",
         description:
             "Lead the front-end development of the product for multiple high-impact projects, with experience in WebGL charts with an intensive volume of data, and implementing best practices.",
@@ -48,7 +48,7 @@ const jobs = [
 export const Experience = () => {
     return (
         <>
-            <h2 className="text-xl font-bold mb-4">Work Experience</h2>
+            <h2 className="text-xl font-bold mb-4 text-black dark:text-white">Work Experience</h2>
             <Card>
                 <CardContent className="pt-6">
                     <ul className="space-y-8">

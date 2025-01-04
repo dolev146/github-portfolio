@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import useMediaQuery from "@/hook/useMediaQuery";
 
-import { FaXTwitter } from "react-icons/fa6";
+import { FaXTwitter , FaStackOverflow } from "react-icons/fa6";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 import {
@@ -27,7 +27,7 @@ const socials = [
     {
         name: "Stack OverFlow",
         link: "https://stackoverflow.com/users/13104490/dolev-dublon",
-        icon: <FaXTwitter className="size-4" />
+        icon: <FaStackOverflow className="size-4" />
     }
     // TODO: Add more socials here
 ]
@@ -45,14 +45,14 @@ export const Profile = () => {
                                 width={150}
                                 height={150}
                                 quality={100}
-                                src="/avatar.svg"
+                                src="/thumbnail.jpeg"
                                 alt="Profile Picture"
                                 className="rounded-full size-12 md:w-full h-auto object-cover border-2"
                             />
                             <div className="flex flex-col items-start justify-center">
-                                <h1 className="font-bold md:mt-4 text-xl md:text-2xl">Chris Lonzo</h1>
+                                <h1 className="font-bold md:mt-4 text-xl md:text-2xl">Dolev Dublon</h1>
                                 <p className="text-sm md:text-base text-muted-foreground">
-                                    Solopreneur Developer
+                                    Software Engineer and a Master Computer Science Student
                                 </p>
                             </div>
                         </div>
@@ -66,7 +66,7 @@ export const Profile = () => {
                         {/* TODO: Add resume */}
                         {/* TODO: Add link to schedule a call with you using Calendly or Cal */}
                         <Link
-                            href="/resume.pdf"
+                            href="https://cal.com/dolev"
                             target="_blank"
                             className="font-semibold uppercase"
                         >
