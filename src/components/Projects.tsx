@@ -7,28 +7,16 @@ import { Card, CardContent } from "@/components/ui/card";
 
 export const projects = [
     {
-        title: "E-commerce Platform",
-        description: "A full-stack e-commerce solution with React, Node.js, and MongoDB",
-        tech: "React",
-        link: "#",
+        title: "VFS - Virtual File System in C++",
+        description: "A file system virtualization, simulating how the filesystem of Fat32 works.",
+        tech: "C++",
+        link: "https://github.com/yakov103/Ex7-os",
     },
     {
-        title: "Task Management App",
-        description: "A productivity app built with React Native and Firebase",
-        tech: "React Native",
-        link: "#",
-    },
-    {
-        title: "Data Visualization Dashboard",
-        description: "An interactive dashboard using D3.js and Vue.js",
-        tech: "Vue.js",
-        link: "#",
-    },
-    {
-        title: "AI Chatbot",
-        description: "A machine learning powered chatbot using Python and TensorFlow",
-        tech: "Python",
-        link: "#",
+        title: "Politi-Cal",
+        description: "Android App developed in Kotlin, using Firestore for storing the data and cloud function as a replacement for server. ",
+        tech: "Kotlin",
+        link: "https://github.com/dolev146/Politi-Cal",
     },
 ]
 
@@ -37,6 +25,8 @@ const techColors = {
     "React Native": "bg-green-500",
     "Vue.js": "bg-purple-500",
     "Python": "bg-yellow-500",
+    "C++" : "bg-pink-500",
+    "Kotlin": "bg-purple-500",
 }
 
 export const Projects = () => {
