@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import { CalendarDays } from "lucide-react";
 
-import { Card, CardContent, CardTitle } from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card";
 
 import { JobImages } from "@/components/JobImages";
 
@@ -15,7 +15,7 @@ const jobs = [
         description:
             "Lead the front-end development of the product for multiple high-impact projects, with experience in WebGL charts with an intensive volume of data, and implementing best practices.",
         link: "https://www.alphaomega-eng.com/",
-        images: [],
+        images: ["/ao-player.jpg"],
      },
     // {
     //     role: "Senior Full-Stack Developer", // TODO: Replace with actual role
