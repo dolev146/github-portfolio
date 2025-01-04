@@ -8,7 +8,7 @@ import { JobImages } from "@/components/JobImages";
 
 const jobs = [
     {
-        role: "SFull-Stack Developer", // TODO: Replace with actual role
+        role: "Full-Stack Developer , React TypeScript .NetCore", // TODO: Replace with actual role
         company: "Alpha Omega Engineering Inc.", // TODO: Replace with actual company name
         logo: "/ao.svg", // TODO: Replace with actual logo
         duration: "2023 - Present",
