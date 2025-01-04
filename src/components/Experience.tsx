@@ -8,41 +8,41 @@ import { JobImages } from "@/components/JobImages";
 
 const jobs = [
     {
-        role: "Senior Full-Stack Developer", // TODO: Replace with actual role
-        company: "Tech Innovators Inc.", // TODO: Replace with actual company name
-        logo: "/company.svg", // TODO: Replace with actual logo
-        duration: "2020 - Present",
+        role: "SFull-Stack Developer", // TODO: Replace with actual role
+        company: "Alpha Omega Engineering Inc.", // TODO: Replace with actual company name
+        logo: "/ao.svg", // TODO: Replace with actual logo
+        duration: "2023 - Present",
         description:
-            "Lead developer for multiple high-impact projects, mentoring junior developers, and implementing best practices.",
-        link: "https://techinnovators.com",
+            "Lead the front-end development of the product for multiple high-impact projects, with experience in WebGL charts with an intensive volume of data, and implementing best practices.",
+        link: "https://www.alphaomega-eng.com/",
         images: [],
-    },
-    {
-        role: "Senior Full-Stack Developer", // TODO: Replace with actual role
-        company: "Tech Innovators Inc.", // TODO: Replace with actual company name
-        logo: "/company.svg", // TODO: Replace with actual logo
-        duration: "2018 - 2020",
-        description:
-            "Developed and maintained various client projects, focusing on responsive design and performance optimization.",
-        link: "https://websolutions.com",
-        images: [
-            "/devvault.png",
-            "/devvault.png",
-        ],
-    },
-    {
-        role: "Senior Full-Stack Developer", // TODO: Replace with actual role
-        company: "Tech Innovators Inc.", // TODO: Replace with actual company name
-        logo: "/company.svg", // TODO: Replace with actual logo
-        duration: "2016 - 2018",
-        description:
-            "Assisted in the development of web applications, gained experience in agile methodologies and version control.",
-        link: "https://startupventures.com",
-        images: [
-            "/devvault.png",
-            "/devvault.png",
-        ],
-    },
+     },
+    // {
+    //     role: "Senior Full-Stack Developer", // TODO: Replace with actual role
+    //     company: "Tech Innovators Inc.", // TODO: Replace with actual company name
+    //     logo: "/company.svg", // TODO: Replace with actual logo
+    //     duration: "2018 - 2020",
+    //     description:
+    //         "Developed and maintained various client projects, focusing on responsive design and performance optimization.",
+    //     link: "https://websolutions.com",
+    //     images: [
+    //         "/devvault.png",
+    //         "/devvault.png",
+    //     ],
+    // },
+    // {
+    //     role: "Senior Full-Stack Developer", // TODO: Replace with actual role
+    //     company: "Tech Innovators Inc.", // TODO: Replace with actual company name
+    //     logo: "/company.svg", // TODO: Replace with actual logo
+    //     duration: "2016 - 2018",
+    //     description:
+    //         "Assisted in the development of web applications, gained experience in agile methodologies and version control.",
+    //     link: "https://startupventures.com",
+    //     images: [
+    //         "/devvault.png",
+    //         "/devvault.png",
+    //     ],
+    // },
 ]
 
 export const Experience = () => {
