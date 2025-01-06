@@ -45,7 +45,7 @@ const techColors = {
 export const Projects = () => {
     return (
         <>
-            <h2 className="text-xl font-bold mb-4">
+            <h2 className="text-xl font-bold mb-4 text-black dark:text-white">
                 Featured Projects
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">

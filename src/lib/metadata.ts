@@ -3,10 +3,10 @@ import { Metadata } from 'next'
 // TODO: Update metadata
 
 export function constructMetadata({
-  title = 'Dolev Dublon', // TODO: Add a custom title
-  description = "I am a software engineer with a passion for building scalable and efficient web applications.", // TODO: Add a custom description
-  image = '/thumbnail.jpeg', // TODO: Add a custom image
-  icons = '/thumbnail.jpeg', // TODO: Add a custom icon
+  title = 'Dolev Dublon',
+  description = "I am a software engineer with a passion for building scalable and efficient web applications.",
+  image = 'https://github-portfolio-red.vercel.app/thumbnail.jpeg', // Absolute URL
+  icons = 'https://github-portfolio-red.vercel.app/thumbnail.jpeg', // Absolute URL
   noIndex = false
 }: {
   title?: string
@@ -28,10 +28,10 @@ export function constructMetadata({
       title,
       description,
       images: [image],
-      creator: '@chrislonzo'
+      creator: '@dolev146'
     },
     icons,
-    metadataBase: new URL('https://www.chrislonzo.com'),
+    metadataBase: new URL('https://github-portfolio-red.vercel.app/'),
     ...(noIndex && {
       robots: {
         index: false,
