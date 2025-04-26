@@ -15,7 +15,7 @@ const jobs = [
         description:
             "Lead the front-end development of the product for multiple high-impact projects, with experience in WebGL charts with an intensive volume of data, and implementing best practices.",
         link: "https://www.alphaomega-eng.com/",
-        images: ["/ao-player.jpg"],
+        images: ["/ao-player.jpg", "/ao-surgery.jpg","/lead.png"],
      },
     // {
     //     role: "Senior Full-Stack Developer", // TODO: Replace with actual role
